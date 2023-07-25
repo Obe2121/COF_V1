@@ -15,31 +15,32 @@ struct MainPage: View {
                 .padding()
                 .multilineTextAlignment(.center)
             
-            HStack{
+            VStack{
                 Image("COF_Logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .foregroundColor(.accentColor)
                     .padding()
-                
-                    }
+            }
             HStack{
                 Button(action: {}) {
                 label: do {
                     Text("Sign In")
                         .font(.headline)
                         .padding(2)
-                }
-                }
-            }
-            HStack{
-                Button(action: {}) {
-                label: do {
-                    Text("Create Account")
+                    Text("or")
                         .font(.headline)
+                        .foregroundStyle(.black)
+                    Button(action: {}) {
+                    label: do {
+                        Text("Create Account")
+                            .font(.headline)
+                    }
+                    }
                 }
                 }
             }
+            
         }
     }
 }
