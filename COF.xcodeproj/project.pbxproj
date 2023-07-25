@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		43223F532A6F1C3C00A329FF /* COFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F522A6F1C3C00A329FF /* COFApp.swift */; };
-		43223F552A6F1C3C00A329FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F542A6F1C3C00A329FF /* ContentView.swift */; };
+		43223F552A6F1C3C00A329FF /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F542A6F1C3C00A329FF /* MainPage.swift */; };
 		43223F572A6F1C3E00A329FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43223F562A6F1C3E00A329FF /* Assets.xcassets */; };
 		43223F5A2A6F1C3E00A329FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43223F592A6F1C3E00A329FF /* Preview Assets.xcassets */; };
 		43223F642A6F1C3E00A329FF /* COFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F632A6F1C3E00A329FF /* COFTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		43223F4F2A6F1C3C00A329FF /* COF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43223F522A6F1C3C00A329FF /* COFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COFApp.swift; sourceTree = "<group>"; };
-		43223F542A6F1C3C00A329FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43223F542A6F1C3C00A329FF /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		43223F562A6F1C3E00A329FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43223F592A6F1C3E00A329FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43223F5F2A6F1C3E00A329FF /* COFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				43223F522A6F1C3C00A329FF /* COFApp.swift */,
-				43223F542A6F1C3C00A329FF /* ContentView.swift */,
+				43223F7D2A6F1D0A00A329FF /* Views */,
 				43223F562A6F1C3E00A329FF /* Assets.xcassets */,
 				43223F582A6F1C3E00A329FF /* Preview Content */,
 			);
@@ -125,6 +125,14 @@
 				43223F6F2A6F1C3E00A329FF /* COFUITestsLaunchTests.swift */,
 			);
 			path = COFUITests;
+			sourceTree = "<group>";
+		};
+		43223F7D2A6F1D0A00A329FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43223F542A6F1C3C00A329FF /* MainPage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43223F552A6F1C3C00A329FF /* ContentView.swift in Sources */,
+				43223F552A6F1C3C00A329FF /* MainPage.swift in Sources */,
 				43223F532A6F1C3C00A329FF /* COFApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
