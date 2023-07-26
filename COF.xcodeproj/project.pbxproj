@@ -14,6 +14,7 @@
 		43223F642A6F1C3E00A329FF /* COFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F632A6F1C3E00A329FF /* COFTests.swift */; };
 		43223F6E2A6F1C3E00A329FF /* COFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F6D2A6F1C3E00A329FF /* COFUITests.swift */; };
 		43223F702A6F1C3E00A329FF /* COFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F6F2A6F1C3E00A329FF /* COFUITestsLaunchTests.swift */; };
+		43D5BA0D2A70B63F0009931C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D5BA0C2A70B63F0009931C /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		43223F692A6F1C3E00A329FF /* COFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43223F6D2A6F1C3E00A329FF /* COFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COFUITests.swift; sourceTree = "<group>"; };
 		43223F6F2A6F1C3E00A329FF /* COFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43D5BA0C2A70B63F0009931C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				43223F542A6F1C3C00A329FF /* MainPage.swift */,
+				43D5BA0C2A70B63F0009931C /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				43223F552A6F1C3C00A329FF /* MainPage.swift in Sources */,
 				43223F532A6F1C3C00A329FF /* COFApp.swift in Sources */,
+				43D5BA0D2A70B63F0009931C /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

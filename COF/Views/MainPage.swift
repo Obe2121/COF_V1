@@ -14,36 +14,40 @@ struct MainPage: View {
                 .font(.title)
                 .padding()
                 .multilineTextAlignment(.center)
-            
             VStack{
                 Image("COF_Logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .foregroundColor(.accentColor)
                     .padding()
-            }
-            HStack{
-                Button(action: {}) {
-                label: do {
-                    Text("Sign In")
-                        .font(.headline)
-                        .padding(2)
+                
+                
+                VStack{
+                    Button(action: {}) {
+                    label: do {
+                        Text("Sign In")
+                            .font(.headline)
+                            
+                    }
+                    }
+                VStack{
                     Text("or")
                         .font(.headline)
-                        .foregroundStyle(.black)
+                        .padding()
                     Button(action: {}) {
                     label: do {
                         Text("Create Account")
                             .font(.headline)
+                        }
+                        }
                     }
-                    }
-                }
+                    
                 }
             }
-            
         }
     }
 }
+
 
 struct MainPage_Previews: PreviewProvider {
     static var previews: some View {
