@@ -24,7 +24,7 @@ struct EventListView: View {
                         Image(systemName: "dollarsign.circle")
                         Text("400 per team")
                         Spacer()
-                        Image(systemName: "calendar")
+                        Image(systemName: "calendar.circle")
                         Text("8/19/2023")
                         
                     }
@@ -40,7 +40,7 @@ struct EventListView: View {
                         Image(systemName: "dollarsign.circle")
                         Text("25 per person")
                         Spacer()
-                        Image(systemName: "calendar")
+                        Image(systemName: "calendar.circle")
                         Text("8/18/2023")
                     }
                 }
