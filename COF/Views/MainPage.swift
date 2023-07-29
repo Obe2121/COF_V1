@@ -27,13 +27,11 @@ struct MainPage: View {
                     label: do {
                         Text("Sign In")
                             .font(.headline)
+                            .padding()
                             
                     }
                     }
-                VStack{
-                    Text("or")
-                        .font(.headline)
-                        .padding()
+                HStack{
                     Button(action: {}) {
                     label: do {
                         Text("Create Account")
@@ -44,6 +42,17 @@ struct MainPage: View {
                     
                 }
             }
+            VStack{
+                Text("or")
+                    .font(.headline)
+                    .padding()
+                Button(action: {}) {
+                label: do {
+                    Text("Continue as Guest")
+                        .font(.headline)
+                    }
+                    }
+                }
         }
     }
 }

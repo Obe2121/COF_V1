@@ -14,6 +14,9 @@
 		43223F642A6F1C3E00A329FF /* COFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F632A6F1C3E00A329FF /* COFTests.swift */; };
 		43223F6E2A6F1C3E00A329FF /* COFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F6D2A6F1C3E00A329FF /* COFUITests.swift */; };
 		43223F702A6F1C3E00A329FF /* COFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43223F6F2A6F1C3E00A329FF /* COFUITestsLaunchTests.swift */; };
+		43A43EFA2A746CFD003FECF0 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A43EF92A746CFD003FECF0 /* SignupView.swift */; };
+		43A43EFC2A747E21003FECF0 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A43EFB2A747E21003FECF0 /* EventCardView.swift */; };
+		43A43EFE2A747F72003FECF0 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A43EFD2A747F72003FECF0 /* EventListView.swift */; };
 		43D5BA0D2A70B63F0009931C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D5BA0C2A70B63F0009931C /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,9 @@
 		43223F692A6F1C3E00A329FF /* COFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43223F6D2A6F1C3E00A329FF /* COFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COFUITests.swift; sourceTree = "<group>"; };
 		43223F6F2A6F1C3E00A329FF /* COFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43A43EF92A746CFD003FECF0 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		43A43EFB2A747E21003FECF0 /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
+		43A43EFD2A747F72003FECF0 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		43D5BA0C2A70B63F0009931C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +140,9 @@
 			children = (
 				43223F542A6F1C3C00A329FF /* MainPage.swift */,
 				43D5BA0C2A70B63F0009931C /* LoginView.swift */,
+				43A43EF92A746CFD003FECF0 /* SignupView.swift */,
+				43A43EFB2A747E21003FECF0 /* EventCardView.swift */,
+				43A43EFD2A747F72003FECF0 /* EventListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -269,8 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				43223F552A6F1C3C00A329FF /* MainPage.swift in Sources */,
+				43A43EFE2A747F72003FECF0 /* EventListView.swift in Sources */,
 				43223F532A6F1C3C00A329FF /* COFApp.swift in Sources */,
+				43A43EFA2A746CFD003FECF0 /* SignupView.swift in Sources */,
 				43D5BA0D2A70B63F0009931C /* LoginView.swift in Sources */,
+				43A43EFC2A747E21003FECF0 /* EventCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

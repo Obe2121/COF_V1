@@ -12,17 +12,20 @@ struct LoginView: View {
     @State private var Password = ""
     var body: some View {
         VStack(alignment: .center){
-            Text("Login")
-                .font(.title3)
-            Spacer()
-            Image("COF_Logo")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
+            ZStack{
+                Image("COF_Logo")
+                    .resizable()
+                    .frame(width:200, height: 200)
+                    .opacity(0.5)
+                Text("Login")
+                    .font(.largeTitle)
+                    .bold()
+            }
                 Form {
-                    TextField(text: $Username, prompt: Text("Required")) {
+                    TextField(text: $Username, prompt: Text("Email")) {
                         Text("Username")
                 }
-                    SecureField(text: $Password, prompt: Text("Required")) {
+                    SecureField(text: $Password, prompt: Text("Password")) {
                         Text("Password")
                 }
             }
